@@ -1,0 +1,1752 @@
+
+> dev
+> vite dev --host 127.0.0.1
+
+[33mThe plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the [1mresolve.tsconfigPaths[22m option. You can remove the plugin and set [1mresolve.tsconfigPaths: true[22m in your Vite config instead.[39m
+
+  [32m[1mVITE[22m v8.1.3[39m  [2mready in [0m[1m67809[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m8080[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m14:04:17[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m connected.
+[2m14:06:14[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <StartClient ref={function ref}>
+      <Await promise={Promise}>
+        <AwaitInner promise={Promise}>
+          <RouterProvider router={{...}}>
+            <RouterContextProvider router={{...}}>
+              <Matches>
+                <SafeFragment fallback={null}>
+                  <Transitioner>
+                  <MatchesInner>
+                    <CatchBoundary getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <CatchBoundaryImpl getResetKey={function getResetKey} onCatch={function}>
+                        <MatchImpl matchId="__root__/">
+                          <MatchView router={{...}} matchId="__root__/" resetKey={0} matchState={{routeId:"_...", ...}}>
+                            <RootShell>
+                              <html
+                                lang="en"
++                               data-tsd-source="/src/routes/__root.tsx:110:10"
+-                               data-tsd-source="/src/routes/__root.tsx:105:5"
+                                ref={function ref}
+                              >
+                                <head
++                                 data-tsd-source="/src/routes/__root.tsx:111:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:106:7"
+                                  ref={function ref}
+                                >
+                                <body
++                                 data-tsd-source="/src/routes/__root.tsx:114:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:109:7"
+                                  ref={function ref}
+-                                 __processed_aed6525c-1f7d-40d7-ad8d-2006593fbdfa__="true"
+-                                 bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImFsbWFsZ2JwbWNmcGRhb3BpbWJkY2..."
+                                >
+
+[2m14:06:14[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <OutletImpl data-tsd-source="/src/route..." ref={function ref}>
+      <Suspense fallback={null}>
+        <MatchImpl matchId="//">
+          <MatchView router={{...}} matchId="//" resetKey={0} matchState={{routeId:"/", ...}}>
+            <SafeFragment>
+              <SafeFragment fallback={null}>
+                <SafeFragment getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                  <SafeFragment fallback={function fallback}>
+                    <MatchInnerImpl matchId="//">
+                      <Lazy>
+                        <Landing>
+                          <MobileFrame data-tsd-source="/src/route..." ref={function ref}>
+                            <div
+                              className="min-h-screen bg-muted/40 flex justify-center"
+                              data-tsd-source="/src/components/MobileFrame.tsx:5:5"
+                              ref={function ref}
+-                             bis_skin_checked="1"
+                            >
+                              <div
+                                className="w-full max-w-md bg-background min-h-screen relative flex flex-col"
+                                data-tsd-source="/src/components/MobileFrame.tsx:6:7"
+                                ref={function ref}
+-                               bis_skin_checked="1"
+                              >
+                                <div
+                                  className="flex-1 flex flex-col items-center justify-center px-6 py-10 text-center g..."
+                                  data-tsd-source="/src/routes/index.tsx:6:7"
+                                  ref={function ref}
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="flex flex-col items-center gap-6"
+                                    data-tsd-source="/src/routes/index.tsx:8:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="w-44 h-44 rounded-[2.5rem] bg-gradient-to-br from-primary to-accent f..."
+                                      data-tsd-source="/src/routes/index.tsx:9:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      data-tsd-source="/src/routes/index.tsx:12:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                  <div
+                                    className="w-full space-y-3"
+                                    data-tsd-source="/src/routes/index.tsx:20:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+              ...
+
+[2m14:08:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/index.tsx, /src/routes/index.tsx?tsr-split=component[22m
+[2m14:08:32[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/index.tsx[22m
+[2m14:08:32[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m14:27:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/__root.tsx[22m
+[2m14:27:44[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/__root.tsx[22m
+[2m14:27:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/lib/lovable-error-reporting.ts[22m
+[2m14:27:45[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/lovable-error-reporting.ts[22m
+[2m14:27:49[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <StartClient ref={function ref}>
+      <Await promise={Promise}>
+        <AwaitInner promise={Promise}>
+          <RouterProvider router={{...}}>
+            <RouterContextProvider router={{...}}>
+              <Matches>
+                <SafeFragment fallback={null}>
+                  <Transitioner>
+                  <MatchesInner>
+                    <CatchBoundary getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <CatchBoundaryImpl getResetKey={function getResetKey} onCatch={function}>
+                        <MatchImpl matchId="__root__/">
+                          <MatchView router={{...}} matchId="__root__/" resetKey={0} matchState={{routeId:"_...", ...}}>
+                            <RootShell>
+                              <html
+                                lang="en"
++                               data-tsd-source="/src/routes/__root.tsx:103:10"
+-                               data-tsd-source="/src/routes/__root.tsx:100:5"
+                                ref={function ref}
+                              >
+                                <head
++                                 data-tsd-source="/src/routes/__root.tsx:104:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:101:7"
+                                  ref={function ref}
+                                >
+                                <body
++                                 data-tsd-source="/src/routes/__root.tsx:107:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:104:7"
+                                  ref={function ref}
+-                                 __processed_72c70533-c183-4093-8397-e08b2413ba40__="true"
+-                                 bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImFsbWFsZ2JwbWNmcGRhb3BpbWJkY2..."
+                                >
+
+[2m14:27:49[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <OutletImpl data-tsd-source="/src/route..." ref={function ref}>
+      <Suspense fallback={null}>
+        <MatchImpl matchId="//">
+          <MatchView router={{...}} matchId="//" resetKey={0} matchState={{routeId:"/", ...}}>
+            <SafeFragment>
+              <SafeFragment fallback={null}>
+                <SafeFragment getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                  <SafeFragment fallback={function fallback}>
+                    <MatchInnerImpl matchId="//">
+                      <Lazy>
+                        <Landing>
+                          <MobileFrame data-tsd-source="/src/route..." ref={function ref}>
+                            <div
+                              className="min-h-screen bg-muted/40 flex justify-center"
+                              data-tsd-source="/src/components/MobileFrame.tsx:5:5"
+                              ref={function ref}
+-                             bis_skin_checked="1"
+                            >
+                              <div
+                                className="w-full max-w-md bg-background min-h-screen relative flex flex-col"
+                                data-tsd-source="/src/components/MobileFrame.tsx:6:7"
+                                ref={function ref}
+-                               bis_skin_checked="1"
+                              >
+                                <div
+                                  className="flex-1 flex flex-col items-center justify-center px-6 py-10 text-center g..."
+                                  data-tsd-source="/src/routes/index.tsx:6:7"
+                                  ref={function ref}
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="flex flex-col items-center gap-6"
+                                    data-tsd-source="/src/routes/index.tsx:8:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="w-44 h-44 rounded-[2.5rem] bg-gradient-to-br from-primary to-accent f..."
+                                      data-tsd-source="/src/routes/index.tsx:9:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      data-tsd-source="/src/routes/index.tsx:12:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                  <div
+                                    className="w-full space-y-3"
+                                    data-tsd-source="/src/routes/index.tsx:20:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+              ...
+
+[2m14:37:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/index.tsx, /src/routes/index.tsx?tsr-split=component[22m
+[2m14:37:41[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/index.tsx[22m
+[2m14:37:41[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m14:37:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/login.tsx, /src/routes/login.tsx?tsr-split=component[22m
+[2m14:37:44[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/login.tsx[22m
+[2m14:37:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/register.tsx[22m
+[2m14:37:47[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/register.tsx[22m
+[2m14:37:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/report.tsx[22m
+[2m14:37:51[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/report.tsx[22m
+[2m14:38:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct[22m
+[2m14:38:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/AdminLayout.tsx[22m
+[2m14:39:00[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <StartClient ref={function ref}>
+      <Await promise={Promise}>
+        <AwaitInner promise={Promise}>
+          <RouterProvider router={{...}}>
+            <RouterContextProvider router={{...}}>
+              <Matches>
+                <SafeFragment fallback={null}>
+                  <Transitioner>
+                  <MatchesInner>
+                    <CatchBoundary getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <CatchBoundaryImpl getResetKey={function getResetKey} onCatch={function}>
+                        <MatchImpl matchId="__root__/">
+                          <MatchView router={{...}} matchId="__root__/" resetKey={0} matchState={{routeId:"_...", ...}}>
+                            <RootShell>
+                              <html
+                                lang="en"
++                               data-tsd-source="/src/routes/__root.tsx:103:10"
+-                               data-tsd-source="/src/routes/__root.tsx:100:5"
+                                ref={function ref}
+                              >
+                                <head
++                                 data-tsd-source="/src/routes/__root.tsx:104:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:101:7"
+                                  ref={function ref}
+                                >
+                                <body
++                                 data-tsd-source="/src/routes/__root.tsx:107:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:104:7"
+                                  ref={function ref}
+-                                 bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImFsbWFsZ2JwbWNmcGRhb3BpbWJkY2..."
+-                                 __processed_7ea4d170-db31-46ca-96bd-a7a55afa1d8c__="true"
+                                >
+
+[2m14:39:00[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <OutletImpl data-tsd-source="/src/route..." ref={function ref}>
+      <Suspense fallback={null}>
+        <MatchImpl matchId="//">
+          <MatchView router={{...}} matchId="//" resetKey={0} matchState={{routeId:"/", ...}}>
+            <SafeFragment>
+              <SafeFragment fallback={null}>
+                <SafeFragment getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                  <SafeFragment fallback={function fallback}>
+                    <MatchInnerImpl matchId="//">
+                      <Lazy>
+                        <Landing>
+                          <MobileFrame data-tsd-source="/src/route..." ref={function ref}>
+                            <div
+                              className="min-h-screen bg-muted/40 flex justify-center"
+                              data-tsd-source="/src/components/MobileFrame.tsx:5:5"
+                              ref={function ref}
+-                             bis_skin_checked="1"
+                            >
+                              <div
+                                className="w-full max-w-md bg-background min-h-screen relative flex flex-col"
+                                data-tsd-source="/src/components/MobileFrame.tsx:6:7"
+                                ref={function ref}
+-                               bis_skin_checked="1"
+                              >
+                                <div
+                                  className="flex-1 flex flex-col items-center justify-center px-6 py-10 text-center g..."
+                                  data-tsd-source="/src/routes/index.tsx:6:7"
+                                  ref={function ref}
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="flex flex-col items-center gap-6"
+                                    data-tsd-source="/src/routes/index.tsx:8:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="w-44 h-44 rounded-[2.5rem] overflow-hidden bg-primary shadow-soft"
+                                      data-tsd-source="/src/routes/index.tsx:9:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      data-tsd-source="/src/routes/index.tsx:12:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                  <div
+                                    className="w-full space-y-3"
+                                    data-tsd-source="/src/routes/index.tsx:20:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+              ...
+
+[2m14:41:52[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <StartClient ref={function ref}>
+      <Await promise={Promise}>
+        <AwaitInner promise={Promise}>
+          <RouterProvider router={{...}}>
+            <RouterContextProvider router={{...}}>
+              <Matches>
+                <SafeFragment fallback={null}>
+                  <Transitioner>
+                  <MatchesInner>
+                    <CatchBoundary getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <CatchBoundaryImpl getResetKey={function getResetKey} onCatch={function}>
+                        <MatchImpl matchId="__root__/">
+                          <MatchView router={{...}} matchId="__root__/" resetKey={0} matchState={{routeId:"_...", ...}}>
+                            <RootShell>
+                              <html
+                                lang="en"
++                               data-tsd-source="/src/routes/__root.tsx:103:10"
+-                               data-tsd-source="/src/routes/__root.tsx:100:5"
+                                ref={function ref}
+                              >
+                                <head
++                                 data-tsd-source="/src/routes/__root.tsx:104:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:101:7"
+                                  ref={function ref}
+                                >
+                                <body
++                                 data-tsd-source="/src/routes/__root.tsx:107:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:104:7"
+                                  ref={function ref}
+                                >
+
+[2m19:12:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/__root.tsx[22m
+[2m19:12:57[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/__root.tsx[22m
+[2m19:12:57[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m20:50:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <StartClient ref={function ref}>
+      <Await promise={Promise}>
+        <AwaitInner promise={Promise}>
+          <RouterProvider router={{...}}>
+            <RouterContextProvider router={{...}}>
+              <Matches>
+                <SafeFragment fallback={null}>
+                  <Transitioner>
+                  <MatchesInner>
+                    <CatchBoundary getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <CatchBoundaryImpl getResetKey={function getResetKey} onCatch={function}>
+                        <MatchImpl matchId="__root__/">
+                          <MatchView router={{...}} matchId="__root__/" resetKey={0} matchState={{routeId:"_...", ...}}>
+                            <RootShell>
+                              <html
+                                lang="en"
++                               data-tsd-source="/src/routes/__root.tsx:111:10"
+-                               data-tsd-source="/src/routes/__root.tsx:102:5"
+                                ref={function ref}
+                              >
+                                <head
++                                 data-tsd-source="/src/routes/__root.tsx:112:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:103:7"
+                                  ref={function ref}
+                                >
+                                <body
++                                 data-tsd-source="/src/routes/__root.tsx:115:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:106:7"
+                                  ref={function ref}
+-                                 __processed_f8245277-ca3e-439a-b0f1-35e27ba4d51a__="true"
+-                                 bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImFsbWFsZ2JwbWNmcGRhb3BpbWJkY2..."
+                                >
+
+[2m20:50:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <MatchInnerImpl matchId="/admin/admin">
+      <Lazy>
+        <SplitComponent>
+          <OutletImpl data-tsd-source="/src/route..." ref={function ref}>
+            <MatchImpl matchId="/admin/log...">
+              <MatchView router={{...}} matchId="/admin/log..." resetKey={0} matchState={{routeId:"/...", ...}}>
+                <SafeFragment>
+                  <SafeFragment fallback={null}>
+                    <SafeFragment getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <SafeFragment fallback={function fallback}>
+                        <MatchInnerImpl matchId="/admin/log...">
+                          <Lazy>
+                            <AdminLogin>
+                              <MobileFrame data-tsd-source="/src/route..." ref={function ref}>
+                                <div
+                                  className="min-h-screen bg-muted/40 flex justify-center"
+                                  data-tsd-source="/src/components/MobileFrame.tsx:5:5"
+                                  ref={function ref}
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="w-full max-w-md bg-background min-h-screen relative flex flex-col"
+                                    data-tsd-source="/src/components/MobileFrame.tsx:6:7"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="flex-1 flex flex-col px-6 py-10"
+                                      data-tsd-source="/src/routes/admin.login.tsx:39:23"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                      <div
+                                        className="flex items-center gap-3 mb-6"
+                                        data-tsd-source="/src/routes/admin.login.tsx:39:72"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
+                                      <form onSubmit={function submit} className="space-y-4" ...>
+                                        <label className="block text..." data-tsd-source="/src/route..." ...>
+                                          <div
+                                            className="relative mt-2"
+                                            data-tsd-source="/src/routes/admin.login.tsx:39:504"
+                                            ref={function ref}
+-                                           bis_skin_checked="1"
+                                          >
+                                        <label className="block text..." data-tsd-source="/src/route..." ...>
+                                          <div
+                                            className="relative mt-2"
+                                            data-tsd-source="/src/routes/admin.login.tsx:39:861"
+                                            ref={function ref}
+-                                           bis_skin_checked="1"
+                                          >
+                                        ...
+
+[2m20:51:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/index.tsx, /src/routes/index.tsx?tsr-split=component[22m
+[2m20:51:24[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/index.tsx[22m
+[2m20:51:24[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m20:51:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/index.tsx, /src/routes/index.tsx?tsr-split=component[22m
+[2m20:51:31[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/index.tsx[22m
+[2m20:52:50[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <StartClient ref={function ref}>
+      <Await promise={Promise}>
+        <AwaitInner promise={Promise}>
+          <RouterProvider router={{...}}>
+            <RouterContextProvider router={{...}}>
+              <Matches>
+                <SafeFragment fallback={null}>
+                  <Transitioner>
+                  <MatchesInner>
+                    <CatchBoundary getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <CatchBoundaryImpl getResetKey={function getResetKey} onCatch={function}>
+                        <MatchImpl matchId="__root__/">
+                          <MatchView router={{...}} matchId="__root__/" resetKey={0} matchState={{routeId:"_...", ...}}>
+                            <RootShell>
+                              <html
+                                lang="en"
++                               data-tsd-source="/src/routes/__root.tsx:111:10"
+-                               data-tsd-source="/src/routes/__root.tsx:102:5"
+                                ref={function ref}
+                              >
+                                <head
++                                 data-tsd-source="/src/routes/__root.tsx:112:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:103:7"
+                                  ref={function ref}
+                                >
+                                <body
++                                 data-tsd-source="/src/routes/__root.tsx:115:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:106:7"
+                                  ref={function ref}
+-                                 __processed_7b55f036-7d94-4640-b51b-3203fb712d57__="true"
+-                                 bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImFsbWFsZ2JwbWNmcGRhb3BpbWJkY2..."
+                                >
+
+[2m20:52:50[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <QueryClientProvider client={{}} data-tsd-source="/src/route..." ref={function ref}>
+      <OutletImpl data-tsd-source="/src/route..." ref={function ref}>
+        <Suspense fallback={null}>
+          <MatchImpl matchId="/auth/call...">
+            <MatchView router={{...}} matchId="/auth/call..." resetKey={0} matchState={{routeId:"/...", ...}}>
+              <SafeFragment>
+                <SafeFragment fallback={null}>
+                  <SafeFragment getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                    <SafeFragment fallback={function fallback}>
+                      <MatchInnerImpl matchId="/auth/call...">
+                        <Lazy>
+                          <AuthCallback>
+                            <div
+                              className="flex items-center justify-center h-screen"
+                              data-tsd-source="/src/routes/auth.callback.tsx:58:10"
+                              ref={function ref}
+-                             bis_skin_checked="1"
+                            >
+                              <div
+                                className="text-center"
+                                data-tsd-source="/src/routes/auth.callback.tsx:59:7"
+                                ref={function ref}
+-                               bis_skin_checked="1"
+                              >
+                ...
+
+[2m21:04:34[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <StartClient ref={function ref}>
+      <Await promise={Promise}>
+        <AwaitInner promise={Promise}>
+          <RouterProvider router={{...}}>
+            <RouterContextProvider router={{...}}>
+              <Matches>
+                <SafeFragment fallback={null}>
+                  <Transitioner>
+                  <MatchesInner>
+                    <CatchBoundary getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <CatchBoundaryImpl getResetKey={function getResetKey} onCatch={function}>
+                        <MatchImpl matchId="__root__/">
+                          <MatchView router={{...}} matchId="__root__/" resetKey={0} matchState={{routeId:"_...", ...}}>
+                            <RootShell>
+                              <html
+                                lang="en"
++                               data-tsd-source="/src/routes/__root.tsx:111:10"
+-                               data-tsd-source="/src/routes/__root.tsx:102:5"
+                                ref={function ref}
+                              >
+                                <head
++                                 data-tsd-source="/src/routes/__root.tsx:112:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:103:7"
+                                  ref={function ref}
+                                >
+                                <body
++                                 data-tsd-source="/src/routes/__root.tsx:115:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:106:7"
+                                  ref={function ref}
+-                                 bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImFsbWFsZ2JwbWNmcGRhb3BpbWJkY2..."
+-                                 __processed_f865db42-3381-46d8-abf2-194a23ab1e2a__="true"
+                                >
+
+[2m21:04:34[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <QueryClientProvider client={{}} data-tsd-source="/src/route..." ref={function ref}>
+      <OutletImpl data-tsd-source="/src/route..." ref={function ref}>
+        <Suspense fallback={null}>
+          <MatchImpl matchId="/auth/call...">
+            <MatchView router={{...}} matchId="/auth/call..." resetKey={0} matchState={{routeId:"/...", ...}}>
+              <SafeFragment>
+                <SafeFragment fallback={null}>
+                  <SafeFragment getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                    <SafeFragment fallback={function fallback}>
+                      <MatchInnerImpl matchId="/auth/call...">
+                        <Lazy>
+                          <AuthCallback>
+                            <div
+                              className="flex items-center justify-center h-screen"
+                              data-tsd-source="/src/routes/auth.callback.tsx:58:10"
+                              ref={function ref}
+-                             bis_skin_checked="1"
+                            >
+                              <div
+                                className="text-center"
+                                data-tsd-source="/src/routes/auth.callback.tsx:59:7"
+                                ref={function ref}
+-                               bis_skin_checked="1"
+                              >
+                ...
+
+[2m21:06:20[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <StartClient ref={function ref}>
+      <Await promise={Promise}>
+        <AwaitInner promise={Promise}>
+          <RouterProvider router={{...}}>
+            <RouterContextProvider router={{...}}>
+              <Matches>
+                <SafeFragment fallback={null}>
+                  <Transitioner>
+                  <MatchesInner>
+                    <CatchBoundary getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <CatchBoundaryImpl getResetKey={function getResetKey} onCatch={function}>
+                        <MatchImpl matchId="__root__/">
+                          <MatchView router={{...}} matchId="__root__/" resetKey={0} matchState={{routeId:"_...", ...}}>
+                            <RootShell>
+                              <html
+                                lang="en"
++                               data-tsd-source="/src/routes/__root.tsx:111:10"
+-                               data-tsd-source="/src/routes/__root.tsx:102:5"
+                                ref={function ref}
+                              >
+                                <head
++                                 data-tsd-source="/src/routes/__root.tsx:112:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:103:7"
+                                  ref={function ref}
+                                >
+                                <body
++                                 data-tsd-source="/src/routes/__root.tsx:115:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:106:7"
+                                  ref={function ref}
+-                                 __processed_dc3ff8bf-1237-4356-b564-d8dd4992eec9__="true"
+-                                 bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImFsbWFsZ2JwbWNmcGRhb3BpbWJkY2..."
+                                >
+
+[2m21:06:20[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <MatchInnerImpl matchId="/admin/admin">
+      <Lazy>
+        <SplitComponent>
+          <OutletImpl data-tsd-source="/src/route..." ref={function ref}>
+            <MatchImpl matchId="/admin/log...">
+              <MatchView router={{...}} matchId="/admin/log..." resetKey={0} matchState={{routeId:"/...", ...}}>
+                <SafeFragment>
+                  <SafeFragment fallback={null}>
+                    <SafeFragment getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <SafeFragment fallback={function fallback}>
+                        <MatchInnerImpl matchId="/admin/log...">
+                          <Lazy>
+                            <AdminLogin>
+                              <MobileFrame data-tsd-source="/src/route..." ref={function ref}>
+                                <div
+                                  className="min-h-screen bg-muted/40 flex justify-center"
+                                  data-tsd-source="/src/components/MobileFrame.tsx:5:5"
+                                  ref={function ref}
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="w-full max-w-md bg-background min-h-screen relative flex flex-col"
+                                    data-tsd-source="/src/components/MobileFrame.tsx:6:7"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="flex-1 flex flex-col px-6 py-10"
+                                      data-tsd-source="/src/routes/admin.login.tsx:39:23"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                      <div
+                                        className="flex items-center gap-3 mb-6"
+                                        data-tsd-source="/src/routes/admin.login.tsx:39:72"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
+                                      <form onSubmit={function submit} className="space-y-4" ...>
+                                        <label className="block text..." data-tsd-source="/src/route..." ...>
+                                          <div
+                                            className="relative mt-2"
+                                            data-tsd-source="/src/routes/admin.login.tsx:39:504"
+                                            ref={function ref}
+-                                           bis_skin_checked="1"
+                                          >
+                                        <label className="block text..." data-tsd-source="/src/route..." ...>
+                                          <div
+                                            className="relative mt-2"
+                                            data-tsd-source="/src/routes/admin.login.tsx:39:861"
+                                            ref={function ref}
+-                                           bis_skin_checked="1"
+                                          >
+                                        ...
+
+[2m21:15:46[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <StartClient ref={function ref}>
+      <Await promise={Promise}>
+        <AwaitInner promise={Promise}>
+          <RouterProvider router={{...}}>
+            <RouterContextProvider router={{...}}>
+              <Matches>
+                <SafeFragment fallback={null}>
+                  <Transitioner>
+                  <MatchesInner>
+                    <CatchBoundary getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <CatchBoundaryImpl getResetKey={function getResetKey} onCatch={function}>
+                        <MatchImpl matchId="__root__/">
+                          <MatchView router={{...}} matchId="__root__/" resetKey={0} matchState={{routeId:"_...", ...}}>
+                            <RootShell>
+                              <html
+                                lang="en"
++                               data-tsd-source="/src/routes/__root.tsx:111:10"
+-                               data-tsd-source="/src/routes/__root.tsx:102:5"
+                                ref={function ref}
+                              >
+                                <head
++                                 data-tsd-source="/src/routes/__root.tsx:112:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:103:7"
+                                  ref={function ref}
+                                >
+                                <body
++                                 data-tsd-source="/src/routes/__root.tsx:115:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:106:7"
+                                  ref={function ref}
+-                                 __processed_fcc51745-fb89-4198-a141-78a6f12940f5__="true"
+-                                 bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImFsbWFsZ2JwbWNmcGRhb3BpbWJkY2..."
+                                >
+
+[2m21:15:46[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <OutletImpl data-tsd-source="/src/route..." ref={function ref}>
+      <Suspense fallback={null}>
+        <MatchImpl matchId="//">
+          <MatchView router={{...}} matchId="//" resetKey={0} matchState={{routeId:"/", ...}}>
+            <SafeFragment>
+              <SafeFragment fallback={null}>
+                <SafeFragment getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                  <SafeFragment fallback={function fallback}>
+                    <MatchInnerImpl matchId="//">
+                      <Lazy>
+                        <Landing>
+                          <MobileFrame data-tsd-source="/src/route..." ref={function ref}>
+                            <div
+                              className="min-h-screen bg-muted/40 flex justify-center"
+                              data-tsd-source="/src/components/MobileFrame.tsx:5:5"
+                              ref={function ref}
+-                             bis_skin_checked="1"
+                            >
+                              <div
+                                className="w-full max-w-md bg-background min-h-screen relative flex flex-col"
+                                data-tsd-source="/src/components/MobileFrame.tsx:6:7"
+                                ref={function ref}
+-                               bis_skin_checked="1"
+                              >
+                                <div
+                                  className="flex-1 flex flex-col items-center justify-center px-6 py-10 text-center g..."
+                                  data-tsd-source="/src/routes/index.tsx:6:7"
+                                  ref={function ref}
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="flex flex-col items-center gap-6"
+                                    data-tsd-source="/src/routes/index.tsx:8:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="w-44 h-44 rounded-[2.5rem] overflow-hidden bg-primary shadow-soft"
+                                      data-tsd-source="/src/routes/index.tsx:9:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      data-tsd-source="/src/routes/index.tsx:12:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                  <div
+                                    className="w-full space-y-3"
+                                    data-tsd-source="/src/routes/index.tsx:20:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+              ...
+
+[2m22:30:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.lessons.tsx[22m
+[2m22:30:47[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.lessons.tsx[22m
+[2m22:30:47[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m22:30:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/progress.tsx, /src/routes/progress.tsx?tsr-split=component[22m
+[2m22:30:57[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/progress.tsx[22m
+[2m22:32:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx, /src/routes/home.tsx?tsr-split=component[22m
+[2m22:32:05[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/home.tsx[22m
+[2m22:32:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.lessons.tsx[22m
+[2m22:32:14[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.lessons.tsx[22m
+[2m22:34:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/progress.tsx, /src/routes/progress.tsx?tsr-split=component[22m
+[2m22:34:55[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/progress.tsx[22m
+[2m22:34:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx, /src/routes/home.tsx?tsr-split=component[22m
+[2m22:34:55[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/home.tsx[22m
+[2m22:37:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.scores.tsx, /src/routes/admin.scores.tsx?tsr-split=component[22m
+[2m22:37:08[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.scores.tsx[22m
+[2m22:37:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.userstats.tsx, /src/routes/admin.userstats.tsx?tsr-split=component[22m
+[2m22:37:34[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.userstats.tsx[22m
+[2m23:17:37[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <StartClient ref={function ref}>
+      <Await promise={Promise}>
+        <AwaitInner promise={Promise}>
+          <RouterProvider router={{...}}>
+            <RouterContextProvider router={{...}}>
+              <Matches>
+                <SafeFragment fallback={null}>
+                  <Transitioner>
+                  <MatchesInner>
+                    <CatchBoundary getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <CatchBoundaryImpl getResetKey={function getResetKey} onCatch={function}>
+                        <MatchImpl matchId="__root__/">
+                          <MatchView router={{...}} matchId="__root__/" resetKey={0} matchState={{routeId:"_...", ...}}>
+                            <RootShell>
+                              <html
+                                lang="en"
++                               data-tsd-source="/src/routes/__root.tsx:111:10"
+-                               data-tsd-source="/src/routes/__root.tsx:102:5"
+                                ref={function ref}
+                              >
+                                <head
++                                 data-tsd-source="/src/routes/__root.tsx:112:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:103:7"
+                                  ref={function ref}
+                                >
+                                <body
++                                 data-tsd-source="/src/routes/__root.tsx:115:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:106:7"
+                                  ref={function ref}
+-                                 bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImFsbWFsZ2JwbWNmcGRhb3BpbWJkY2..."
+-                                 __processed_48be4e79-9b6d-48f3-8c94-2f8fcffdde75__="true"
+                                >
+
+[2m23:17:37[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <QueryClientProvider client={{}} data-tsd-source="/src/route..." ref={function ref}>
+      <OutletImpl data-tsd-source="/src/route..." ref={function ref}>
+        <Suspense fallback={null}>
+          <MatchImpl matchId="/auth/call...">
+            <MatchView router={{...}} matchId="/auth/call..." resetKey={0} matchState={{routeId:"/...", ...}}>
+              <SafeFragment>
+                <SafeFragment fallback={null}>
+                  <SafeFragment getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                    <SafeFragment fallback={function fallback}>
+                      <MatchInnerImpl matchId="/auth/call...">
+                        <Lazy>
+                          <AuthCallback>
+                            <div
+                              className="flex items-center justify-center h-screen"
+                              data-tsd-source="/src/routes/auth.callback.tsx:58:10"
+                              ref={function ref}
+-                             bis_skin_checked="1"
+                            >
+                              <div
+                                className="text-center"
+                                data-tsd-source="/src/routes/auth.callback.tsx:59:7"
+                                ref={function ref}
+-                               bis_skin_checked="1"
+                              >
+                ...
+
+[2m23:23:37[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <StartClient ref={function ref}>
+      <Await promise={Promise}>
+        <AwaitInner promise={Promise}>
+          <RouterProvider router={{...}}>
+            <RouterContextProvider router={{...}}>
+              <Matches>
+                <SafeFragment fallback={null}>
+                  <Transitioner>
+                  <MatchesInner>
+                    <CatchBoundary getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <CatchBoundaryImpl getResetKey={function getResetKey} onCatch={function}>
+                        <MatchImpl matchId="__root__/">
+                          <MatchView router={{...}} matchId="__root__/" resetKey={0} matchState={{routeId:"_...", ...}}>
+                            <RootShell>
+                              <html
+                                lang="en"
++                               data-tsd-source="/src/routes/__root.tsx:111:10"
+-                               data-tsd-source="/src/routes/__root.tsx:102:5"
+                                ref={function ref}
+                              >
+                                <head
++                                 data-tsd-source="/src/routes/__root.tsx:112:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:103:7"
+                                  ref={function ref}
+                                >
+                                <body
++                                 data-tsd-source="/src/routes/__root.tsx:115:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:106:7"
+                                  ref={function ref}
+-                                 __processed_95d7d2f8-1c60-4b60-babd-d688c0efb2a3__="true"
+-                                 bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImFsbWFsZ2JwbWNmcGRhb3BpbWJkY2..."
+                                >
+
+[2m23:23:37[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <OutletImpl data-tsd-source="/src/route..." ref={function ref}>
+      <Suspense fallback={null}>
+        <MatchImpl matchId="/home/home">
+          <MatchView router={{...}} matchId="/home/home" resetKey={0} matchState={{routeId:"/...", ...}}>
+            <SafeFragment>
+              <SafeFragment fallback={null}>
+                <SafeFragment getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                  <SafeFragment fallback={function fallback}>
+                    <MatchInnerImpl matchId="/home/home">
+                      <Lazy>
+                        <Home>
+                          <MobileFrame data-tsd-source="/src/route..." ref={function ref}>
+                            <div
+                              className="min-h-screen bg-muted/40 flex justify-center"
+                              data-tsd-source="/src/components/MobileFrame.tsx:5:5"
+                              ref={function ref}
+-                             bis_skin_checked="1"
+                            >
+                              <div
+                                className="w-full max-w-md bg-background min-h-screen relative flex flex-col"
+                                data-tsd-source="/src/components/MobileFrame.tsx:6:7"
+                                ref={function ref}
+-                               bis_skin_checked="1"
+                              >
+                                <header className="px-6 pt-8 ..." data-tsd-source="/src/route..." ref={function ref}>
+                                  <div
+                                    className="flex items-center justify-between mb-5"
+                                    data-tsd-source="/src/routes/home.tsx:82:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      data-tsd-source="/src/routes/home.tsx:83:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="flex items-center gap-2"
+                                      data-tsd-source="/src/routes/home.tsx:87:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                      <button>
+                                      <div
+                                        className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-warning/20 text..."
+                                        data-tsd-source="/src/routes/home.tsx:91:13"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
+                                      ...
+                                  <div
+                                    className="grid grid-cols-2 gap-2 mb-4"
+                                    data-tsd-source="/src/routes/home.tsx:101:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+                                  <div
+                                    className="rounded-3xl bg-card border border-border p-5 shadow-pop"
+                                    data-tsd-source="/src/routes/home.tsx:112:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="flex justify-between items-center mb-3"
+                                      data-tsd-source="/src/routes/home.tsx:113:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                      <div
+                                        data-tsd-source="/src/routes/home.tsx:114:13"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
+                                      <div
+                                        className="w-14 h-14 rounded-2xl bg-secondary grid place-items-center text-2xl"
+                                        data-tsd-source="/src/routes/home.tsx:118:13"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
++                                       🏆
+                                    <ProgressBar value={0} data-tsd-source="/src/route..." ref={function ref}>
+                                      <div
+                                        className="w-full"
+                                        data-tsd-source="/src/components/ProgressBar.tsx:3:5"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="h-4 w-full rounded-full bg-secondary overflow-hidden border borde..."
+                                          data-tsd-source="/src/components/ProgressBar.tsx:10:7"
+                                          ref={function ref}
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="h-full rounded-full bg-gradient-to-r from-primary to-accent tra..."
+                                            style={{width:"0%"}}
+                                            data-tsd-source="/src/components/ProgressBar.tsx:11:9"
+                                            ref={function ref}
+-                                           bis_skin_checked="1"
+                                          >
+                                <section className="px-6 pb-10..." data-tsd-source="/src/route..." ref={function ref}>
+                                  <h2>
+                                  <a data-tsd-source="/src/route..." href="/scenario/..." ref={{current:null}} ...>
+                                    <div
+                                      className="w-16 h-16 rounded-2xl bg-warning grid place-items-center shrink-0"
+                                      data-tsd-source="/src/routes/home.tsx:129:15"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="min-w-0 flex-1"
+                                      data-tsd-source="/src/routes/home.tsx:132:15"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                      <h3>
+                                      <p>
+                                      <div
+                                        className="mt-2 flex items-center gap-2"
+                                        data-tsd-source="/src/routes/home.tsx:135:17"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="h-2 flex-1 rounded-full bg-secondary overflow-hidden"
+                                          data-tsd-source="/src/routes/home.tsx:136:19"
+                                          ref={function ref}
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="h-full bg-primary rounded-full"
+                                            style={{width:"0%"}}
+                                            data-tsd-source="/src/routes/home.tsx:137:21"
+                                            ref={function ref}
+-                                           bis_skin_checked="1"
+                                          >
+                                        ...
+                                  <a data-tsd-source="/src/route..." href="/scenario/..." ref={{current:null}} ...>
+                                    <div
+                                      className="w-16 h-16 rounded-2xl bg-primary grid place-items-center shrink-0"
+                                      data-tsd-source="/src/routes/home.tsx:129:15"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="min-w-0 flex-1"
+                                      data-tsd-source="/src/routes/home.tsx:132:15"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                      <h3>
+                                      <p>
+                                      <div
+                                        className="mt-2 flex items-center gap-2"
+                                        data-tsd-source="/src/routes/home.tsx:135:17"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="h-2 flex-1 rounded-full bg-secondary overflow-hidden"
+                                          data-tsd-source="/src/routes/home.tsx:136:19"
+                                          ref={function ref}
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="h-full bg-primary rounded-full"
+                                            style={{width:"0%"}}
+                                            data-tsd-source="/src/routes/home.tsx:137:21"
+                                            ref={function ref}
+-                                           bis_skin_checked="1"
+                                          >
+                                        ...
+                                  <a data-tsd-source="/src/route..." href="/scenario/..." ref={{current:null}} ...>
+                                    <div
+                                      className="w-16 h-16 rounded-2xl bg-success grid place-items-center shrink-0"
+                                      data-tsd-source="/src/routes/home.tsx:129:15"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="min-w-0 flex-1"
+                                      data-tsd-source="/src/routes/home.tsx:132:15"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                      <h3>
+                                      <p>
+                                      <div
+                                        className="mt-2 flex items-center gap-2"
+                                        data-tsd-source="/src/routes/home.tsx:135:17"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="h-2 flex-1 rounded-full bg-secondary overflow-hidden"
+                                          data-tsd-source="/src/routes/home.tsx:136:19"
+                                          ref={function ref}
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="h-full bg-primary rounded-full"
+                                            style={{width:"0%"}}
+                                            data-tsd-source="/src/routes/home.tsx:137:21"
+                                            ref={function ref}
+-                                           bis_skin_checked="1"
+                                          >
+                                        ...
+                                  <a data-tsd-source="/src/route..." href="/scenario/..." ref={{current:null}} ...>
+                                    <div
+                                      className="w-16 h-16 rounded-2xl bg-chart-3 grid place-items-center shrink-0"
+                                      data-tsd-source="/src/routes/home.tsx:129:15"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="min-w-0 flex-1"
+                                      data-tsd-source="/src/routes/home.tsx:132:15"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                      <h3>
+                                      <p>
+                                      <div
+                                        className="mt-2 flex items-center gap-2"
+                                        data-tsd-source="/src/routes/home.tsx:135:17"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="h-2 flex-1 rounded-full bg-secondary overflow-hidden"
+                                          data-tsd-source="/src/routes/home.tsx:136:19"
+                                          ref={function ref}
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="h-full bg-primary rounded-full"
+                                            style={{width:"0%"}}
+                                            data-tsd-source="/src/routes/home.tsx:137:21"
+                                            ref={function ref}
+-                                           bis_skin_checked="1"
+                                          >
+                                        ...
+              ...
+
+[2m23:27:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/login.tsx?tsr-split=component, /src/routes/admin.login.tsx?tsr-split=component, /src/routes/register.tsx?tsr-split=component, /src/routes/home.tsx?tsr-split=component, /src/routes/progress.tsx?tsr-split=component, /src/routes/profile.tsx?tsr-split=component, /src/components/AdminLayout.tsx[22m
+[2m23:27:43[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/auth.ts[22m
+[2m23:27:43[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m23:27:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/login.tsx?tsr-split=component, /src/routes/admin.login.tsx?tsr-split=component, /src/routes/register.tsx?tsr-split=component, /src/routes/home.tsx?tsr-split=component, /src/routes/progress.tsx?tsr-split=component, /src/routes/profile.tsx?tsr-split=component, /src/components/AdminLayout.tsx[22m
+[2m23:27:48[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/auth.ts[22m
+[2m23:27:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/auth.callback.tsx, /src/routes/auth.callback.tsx?tsr-split=component[22m
+[2m23:27:56[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/auth.callback.tsx[22m
+[2m23:28:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/login.tsx?tsr-split=component, /src/routes/admin.login.tsx?tsr-split=component, /src/routes/register.tsx?tsr-split=component, /src/routes/home.tsx?tsr-split=component, /src/routes/progress.tsx?tsr-split=component, /src/routes/profile.tsx?tsr-split=component, /src/components/AdminLayout.tsx[22m
+[2m23:28:03[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/auth.ts[22m
+[2m23:31:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/login.tsx?tsr-split=component, /src/routes/admin.login.tsx?tsr-split=component, /src/routes/register.tsx?tsr-split=component, /src/routes/home.tsx?tsr-split=component, /src/routes/progress.tsx?tsr-split=component, /src/routes/profile.tsx?tsr-split=component, /src/components/AdminLayout.tsx[22m
+[2m23:31:18[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/auth.ts[22m
+[2m23:31:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/auth.callback.tsx, /src/routes/auth.callback.tsx?tsr-split=component[22m
+[2m23:31:18[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/auth.callback.tsx[22m
+[2m23:32:39[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <StartClient ref={function ref}>
+      <Await promise={Promise}>
+        <AwaitInner promise={Promise}>
+          <RouterProvider router={{...}}>
+            <RouterContextProvider router={{...}}>
+              <Matches>
+                <SafeFragment fallback={null}>
+                  <Transitioner>
+                  <MatchesInner>
+                    <CatchBoundary getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <CatchBoundaryImpl getResetKey={function getResetKey} onCatch={function}>
+                        <MatchImpl matchId="__root__/">
+                          <MatchView router={{...}} matchId="__root__/" resetKey={0} matchState={{routeId:"_...", ...}}>
+                            <RootShell>
+                              <html
+                                lang="en"
++                               data-tsd-source="/src/routes/__root.tsx:111:10"
+-                               data-tsd-source="/src/routes/__root.tsx:102:5"
+                                ref={function ref}
+                              >
+                                <head
++                                 data-tsd-source="/src/routes/__root.tsx:112:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:103:7"
+                                  ref={function ref}
+                                >
+                                <body
++                                 data-tsd-source="/src/routes/__root.tsx:115:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:106:7"
+                                  ref={function ref}
+-                                 __processed_c918d813-f2c6-444e-b53a-1e828127d11f__="true"
+-                                 bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImFsbWFsZ2JwbWNmcGRhb3BpbWJkY2..."
+                                >
+
+[2m23:32:39[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <QueryClientProvider client={{}} data-tsd-source="/src/route..." ref={function ref}>
+      <OutletImpl data-tsd-source="/src/route..." ref={function ref}>
+        <Suspense fallback={null}>
+          <MatchImpl matchId="/auth/call...">
+            <MatchView router={{...}} matchId="/auth/call..." resetKey={0} matchState={{routeId:"/...", ...}}>
+              <SafeFragment>
+                <SafeFragment fallback={null}>
+                  <SafeFragment getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                    <SafeFragment fallback={function fallback}>
+                      <MatchInnerImpl matchId="/auth/call...">
+                        <Lazy>
+                          <AuthCallback>
+                            <div
+                              className="flex items-center justify-center h-screen"
+                              data-tsd-source="/src/routes/auth.callback.tsx:42:10"
+                              ref={function ref}
+-                             bis_skin_checked="1"
+                            >
+                              <div
+                                className="text-center"
+                                data-tsd-source="/src/routes/auth.callback.tsx:43:7"
+                                ref={function ref}
+-                               bis_skin_checked="1"
+                              >
+                ...
+
+[2m00:03:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/profile.tsx, /src/routes/profile.tsx?tsr-split=component[22m
+[2m00:03:09[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/profile.tsx[22m
+[2m00:03:09[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m00:03:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/profile.tsx, /src/routes/profile.tsx?tsr-split=component[22m
+[2m00:03:26[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/profile.tsx[22m
+[2m00:03:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/profile.tsx, /src/routes/profile.tsx?tsr-split=component[22m
+[2m00:03:44[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/profile.tsx[22m
+[2m00:04:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/profile.tsx, /src/routes/profile.tsx?tsr-split=component[22m
+[2m00:04:27[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/profile.tsx[22m
+[2m00:05:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/profile.tsx, /src/routes/profile.tsx?tsr-split=component[22m
+[2m00:05:07[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/profile.tsx[22m
+[2m00:06:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/profile.tsx, /src/routes/profile.tsx?tsr-split=component[22m
+[2m00:06:33[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/profile.tsx[22m
+[2m00:12:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/routeTree.gen.ts[22m
+[2m00:12:16[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routeTree.gen.ts[22m
+[2m00:12:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/index.tsx, /src/routes/index.tsx?tsr-split=component[22m
+[2m00:12:20[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/index.tsx[22m
+[2m00:12:20[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m00:12:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/login.tsx, /src/routes/login.tsx?tsr-split=component[22m
+[2m00:12:24[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/login.tsx[22m
+[2m00:12:24[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <StartClient ref={function ref}>
+      <Await promise={Promise}>
+        <AwaitInner promise={Promise}>
+          <RouterProvider router={{...}}>
+            <RouterContextProvider router={{...}}>
+              <Matches>
+                <SafeFragment fallback={null}>
+                  <Transitioner>
+                  <MatchesInner>
+                    <CatchBoundary getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                      <CatchBoundaryImpl getResetKey={function getResetKey} onCatch={function}>
+                        <MatchImpl matchId="__root__/">
+                          <MatchView router={{...}} matchId="__root__/" resetKey={0} matchState={{routeId:"_...", ...}}>
+                            <RootShell>
+                              <html
+                                lang="en"
++                               data-tsd-source="/src/routes/__root.tsx:111:10"
+-                               data-tsd-source="/src/routes/__root.tsx:102:5"
+                                ref={function ref}
+                              >
+                                <head
++                                 data-tsd-source="/src/routes/__root.tsx:112:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:103:7"
+                                  ref={function ref}
+                                >
+                                <body
++                                 data-tsd-source="/src/routes/__root.tsx:115:7"
+-                                 data-tsd-source="/src/routes/__root.tsx:106:7"
+                                  ref={function ref}
+-                                 __processed_fdc2e9f6-958a-4eed-8132-f94464a23236__="true"
+-                                 bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImFsbWFsZ2JwbWNmcGRhb3BpbWJkY2..."
+                                >
+
+[2m00:12:24[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mA tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <OutletImpl data-tsd-source="/src/route..." ref={function ref}>
+      <Suspense fallback={null}>
+        <MatchImpl matchId="/login/login">
+          <MatchView router={{...}} matchId="/login/login" resetKey={0} matchState={{routeId:"/...", ...}}>
+            <SafeFragment>
+              <SafeFragment fallback={null}>
+                <SafeFragment getResetKey={function getResetKey} errorComponent={function ErrorComponent} ...>
+                  <SafeFragment fallback={function fallback}>
+                    <MatchInnerImpl matchId="/login/login">
+                      <Lazy>
+                        <Login>
+                          <MobileFrame data-tsd-source="/src/route..." ref={function ref}>
+                            <div
+                              className="min-h-screen bg-muted/40 flex justify-center"
+                              data-tsd-source="/src/components/MobileFrame.tsx:5:5"
+                              ref={function ref}
+-                             bis_skin_checked="1"
+                            >
+                              <div
+                                className="w-full max-w-md bg-background min-h-screen relative flex flex-col"
+                                data-tsd-source="/src/components/MobileFrame.tsx:6:7"
+                                ref={function ref}
+-                               bis_skin_checked="1"
+                              >
+                                <div
+                                  className="flex-1 flex flex-col px-6 py-10"
+                                  data-tsd-source="/src/routes/login.tsx:45:7"
+                                  ref={function ref}
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="flex flex-col items-center gap-3 mb-10 mt-6"
+                                    data-tsd-source="/src/routes/login.tsx:46:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="w-20 h-20 rounded-2xl overflow-hidden bg-primary shadow-soft"
+                                      data-tsd-source="/src/routes/login.tsx:47:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                    ...
+                                  <form onSubmit={function handleSubmit} className="space-y-5" ...>
+                                    <div
+                                      data-tsd-source="/src/routes/login.tsx:57:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                      <label>
+                                      <div
+                                        className="relative"
+                                        data-tsd-source="/src/routes/login.tsx:59:13"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
+                                    <div
+                                      data-tsd-source="/src/routes/login.tsx:65:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                      <label>
+                                      <div
+                                        className="relative"
+                                        data-tsd-source="/src/routes/login.tsx:67:13"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
+                                    ...
+                                  <div
+                                    className="my-6"
+                                    data-tsd-source="/src/routes/login.tsx:78:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="relative"
+                                      data-tsd-source="/src/routes/login.tsx:79:11"
+                                      ref={function ref}
+-                                     bis_skin_checked="1"
+                                    >
+                                      <div
+                                        className="absolute inset-0 flex items-center"
+                                        data-tsd-source="/src/routes/login.tsx:80:13"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="w-full border-t border-border"
+                                          data-tsd-source="/src/routes/login.tsx:81:15"
+                                          ref={function ref}
+-                                         bis_skin_checked="1"
+                                        >
+                                      <div
+                                        className="relative flex justify-center text-sm"
+                                        data-tsd-source="/src/routes/login.tsx:83:13"
+                                        ref={function ref}
+-                                       bis_skin_checked="1"
+                                      >
+                                  <button>
+                                  <div
+                                    className="mt-auto pt-8 text-center text-sm text-muted-foreground"
+                                    data-tsd-source="/src/routes/login.tsx:99:9"
+                                    ref={function ref}
+-                                   bis_skin_checked="1"
+                                  >
+                                  ...
+              ...
+
+[2m00:12:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/register.tsx, /src/routes/register.tsx?tsr-split=component[22m
+[2m00:12:27[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/register.tsx[22m
+[2m00:12:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.login.tsx, /src/routes/admin.login.tsx?tsr-split=component[22m
+[2m00:12:36[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.login.tsx[22m
+[2m00:12:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/change-password.tsx[22m
+[2m00:12:48[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/change-password.tsx[22m
+[2m00:12:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/index.tsx, /src/routes/index.tsx?tsr-split=component[22m
+[2m00:12:48[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/index.tsx[22m
+[2m00:12:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/login.tsx, /src/routes/login.tsx?tsr-split=component[22m
+[2m00:12:48[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/login.tsx[22m
+[2m00:12:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/register.tsx, /src/routes/register.tsx?tsr-split=component[22m
+[2m00:12:48[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/register.tsx[22m
+[2m00:12:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.login.tsx, /src/routes/admin.login.tsx?tsr-split=component[22m
+[2m00:12:48[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.login.tsx[22m
+Error: Error transforming route file D:/LingoEat/HTML/LingoEat/LingoEat/src/routes/change-password.tsx: SyntaxError: 'return' outside of function. (272:2)
+    at file:///D:/LingoEat/HTML/LingoEat/LingoEat/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+    at async generate (file:///D:/LingoEat/HTML/LingoEat/LingoEat/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:39:4)
+    at async PluginContext.watchChange (file:///D:/LingoEat/HTML/LingoEat/LingoEat/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:49:4)
+    at async Promise.all (index 2)
+    at async EnvironmentPluginContainer.hookParallel (file:///D:/LingoEat/HTML/LingoEat/LingoEat/node_modules/vite/dist/node/chunks/node.js:29604:3)
+    at async EnvironmentPluginContainer.watchChange (file:///D:/LingoEat/HTML/LingoEat/LingoEat/node_modules/vite/dist/node/chunks/node.js:29771:3)
+    at async Promise.all (index 0)
+    at async onFileChange (file:///D:/LingoEat/HTML/LingoEat/LingoEat/node_modules/vite/dist/node/chunks/node.js:25548:3)
+[2m01:23:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/change-password.tsx, /src/routes/change-password.tsx?tsr-split=component[22m
+[2m01:23:17[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/change-password.tsx[22m
+[2m01:23:17[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m01:23:17[22m [31m[1m[vite][22m[39m [31mInternal server error: 'return' outside of function. (272:2)[39m
+  Plugin: [35mtanstack-router:code-splitter:compile-virtual-file[39m
+  File: [36mD:/LingoEat/HTML/LingoEat/LingoEat/src/routes/change-password.tsx?tsr-split=component[39m:272:2
+[33m  270 |  }
+  271 |  
+  272 |    return (
+      |    ^
+  273 |      <MobileFrame>
+  274 |        <header className="px-6 pt-8 pb-4 flex items-center gap-3">[39m
+      at constructor (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.parseReturnStatement (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:13153:12)
+      at TypeScriptParserMixin.parseStatementContent (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12815:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12639:10)
+[2m01:23:17[22m [31m[1m[vite][22m[39m [31mInternal server error: 'return' outside of function. (272:2)[39m
+  Plugin: [35mtanstack-router:code-splitter:compile-reference-file[39m
+  File: [36mD:/LingoEat/HTML/LingoEat/LingoEat/src/routes/change-password.tsx[39m:272:2
+[33m  270 |  }
+  271 |  
+  272 |    return (
+      |    ^
+  273 |      <MobileFrame>
+  274 |        <header className="px-6 pt-8 pb-4 flex items-center gap-3">[39m
+      at constructor (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.parseReturnStatement (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:13153:12)
+      at TypeScriptParserMixin.parseStatementContent (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12815:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12639:10)
+[2m01:23:17[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/routes/change-password.tsx?tsr-split=component. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m01:23:17[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/routes/change-password.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+Error: Error transforming route file D:/LingoEat/HTML/LingoEat/LingoEat/src/routes/change-password.tsx: SyntaxError: 'return' outside of function. (272:2)
+    at file:///D:/LingoEat/HTML/LingoEat/LingoEat/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+    at async generate (file:///D:/LingoEat/HTML/LingoEat/LingoEat/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:39:4)
+    at async PluginContext.watchChange (file:///D:/LingoEat/HTML/LingoEat/LingoEat/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:49:4)
+    at async Promise.all (index 2)
+    at async EnvironmentPluginContainer.hookParallel (file:///D:/LingoEat/HTML/LingoEat/LingoEat/node_modules/vite/dist/node/chunks/node.js:29604:3)
+    at async EnvironmentPluginContainer.watchChange (file:///D:/LingoEat/HTML/LingoEat/LingoEat/node_modules/vite/dist/node/chunks/node.js:29771:3)
+    at async Promise.all (index 0)
+    at async onFileChange (file:///D:/LingoEat/HTML/LingoEat/LingoEat/node_modules/vite/dist/node/chunks/node.js:25548:3)
+[2m01:23:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/change-password.tsx, /src/routes/change-password.tsx?tsr-split=component[22m
+[2m01:23:40[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/change-password.tsx[22m
+[2m01:23:40[22m [31m[1m[vite][22m[39m [31mInternal server error: 'return' outside of function. (272:2)[39m
+  Plugin: [35mtanstack-router:code-splitter:compile-reference-file[39m
+  File: [36mD:/LingoEat/HTML/LingoEat/LingoEat/src/routes/change-password.tsx[39m:272:2
+[33m  270 |  }
+  271 |  
+  272 |    return (
+      |    ^
+  273 |      <MobileFrame>
+  274 |        <header className="px-6 pt-8 pb-4 flex items-center gap-3">[39m
+      at constructor (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.parseReturnStatement (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:13153:12)
+      at TypeScriptParserMixin.parseStatementContent (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12815:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12639:10)
+[2m01:23:40[22m [31m[1m[vite][22m[39m [31mInternal server error: 'return' outside of function. (272:2)[39m
+  Plugin: [35mtanstack-router:code-splitter:compile-virtual-file[39m
+  File: [36mD:/LingoEat/HTML/LingoEat/LingoEat/src/routes/change-password.tsx?tsr-split=component[39m:272:2
+[33m  270 |  }
+  271 |  
+  272 |    return (
+      |    ^
+  273 |      <MobileFrame>
+  274 |        <header className="px-6 pt-8 pb-4 flex items-center gap-3">[39m
+      at constructor (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.parseReturnStatement (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:13153:12)
+      at TypeScriptParserMixin.parseStatementContent (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12815:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (D:\LingoEat\HTML\LingoEat\LingoEat\node_modules\@babel\parser\lib\index.js:12639:10)
+[2m01:23:40[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/routes/change-password.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m01:23:40[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/routes/change-password.tsx?tsr-split=component. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m01:24:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/change-password.tsx, /src/routes/change-password.tsx?tsr-split=component[22m
+[2m01:24:54[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/change-password.tsx[22m
+[2m01:24:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [optimizer] bundling dependencies...
+[2m01:24:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mdependency optimized: [33minput-otp[32m[39m
+[2m01:24:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mdependencies optimized: [33mclsx, tailwind-merge[32m[39m
+[2m01:26:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/change-password.tsx, /src/routes/change-password.tsx?tsr-split=component[22m
+[2m01:26:04[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/change-password.tsx[22m
+[2m01:28:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/change-password.tsx, /src/routes/change-password.tsx?tsr-split=component[22m
+[2m01:28:00[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/change-password.tsx[22m

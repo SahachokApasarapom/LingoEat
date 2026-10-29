@@ -1,0 +1,231 @@
+
+> dev
+> vite dev --host 127.0.0.1 --port 5173
+
+
+  [32m[1mVITE[22m v8.1.3[39m  [2mready in [0m[1m13062[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m20:31:29[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m connected.
+[2m21:16:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component[22m
+[2m21:18:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component[22m
+[2m22:00:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m22:00:22[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m22:00:22[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m22:46:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m22:46:55[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m22:46:55[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m23:11:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component, /src/routes/scenario.$scenarioId.tsx?tsr-split=component, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m23:11:57[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/learning-progress.ts[22m
+[2m23:11:57[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m23:12:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component, /src/routes/scenario.$scenarioId.tsx?tsr-split=component, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m23:12:05[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/learning-progress.ts[22m
+[2m23:12:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/lesson.tsx, /src/routes/lesson.tsx?tsr-split=component[22m
+[2m23:12:14[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/lesson.tsx[22m
+[2m23:12:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/progress.tsx[22m
+[2m23:12:18[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/progress.tsx[22m
+[2m23:12:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/progress.tsx[22m
+[2m23:12:22[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/progress.tsx[22m
+[2m23:13:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component, /src/routes/scenario.$scenarioId.tsx?tsr-split=component, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m23:13:02[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/learning-progress.ts[22m
+[2m23:18:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m23:18:03[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m23:18:03[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m23:18:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component, /src/routes/scenario.$scenarioId.tsx?tsr-split=component, /src/routes/quiz.tsx?tsr-split=component, /src/routes/lesson.tsx?tsr-split=component[22m
+[2m23:18:13[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/learning-progress.ts[22m
+[2m23:18:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/lesson.tsx, /src/routes/lesson.tsx?tsr-split=component[22m
+[2m23:18:14[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/lesson.tsx[22m
+[2m23:18:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m23:18:14[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m23:18:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/progress.tsx[22m
+[2m23:18:14[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/progress.tsx[22m
+[2m00:07:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m00:07:58[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m00:07:58[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m00:08:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m00:08:33[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m00:10:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m00:10:10[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m00:10:10[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m00:10:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m00:10:13[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m00:10:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m00:10:15[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m00:10:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m00:10:17[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m00:12:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/progress.tsx, /src/routes/progress.tsx?tsr-split=component[22m
+[2m00:12:34[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/progress.tsx[22m
+[2m00:12:34[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m00:12:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/result.tsx[22m
+[2m00:12:34[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/result.tsx[22m
+[2m00:12:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/report.tsx[22m
+[2m00:12:34[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/report.tsx[22m
+[2m00:12:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.scores.tsx[22m
+[2m00:12:35[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.scores.tsx[22m
+[2m00:12:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx, /src/routes/home.tsx?tsr-split=component[22m
+[2m00:12:44[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/home.tsx[22m
+[2m00:15:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/progress.tsx, /src/routes/progress.tsx?tsr-split=component[22m
+[2m00:15:08[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/progress.tsx[22m
+[2m00:15:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.scores.tsx[22m
+[2m00:15:08[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.scores.tsx[22m
+[2m00:15:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/report.tsx[22m
+[2m00:15:08[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/report.tsx[22m
+[2m00:15:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/result.tsx[22m
+[2m00:15:08[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/result.tsx[22m
+[2m00:15:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx, /src/routes/home.tsx?tsr-split=component[22m
+[2m00:15:08[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/home.tsx[22m
+[2m00:15:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m00:15:19[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m00:15:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m00:15:59[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m00:19:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx, /src/routes/home.tsx?tsr-split=component[22m
+[2m00:19:19[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/home.tsx[22m
+[2m00:19:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx, /src/routes/home.tsx?tsr-split=component[22m
+[2m00:19:26[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/home.tsx[22m
+[2m00:19:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/progress.tsx, /src/routes/progress.tsx?tsr-split=component[22m
+[2m00:19:27[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/progress.tsx[22m
+[2m00:19:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/progress.tsx, /src/routes/progress.tsx?tsr-split=component[22m
+[2m00:19:28[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/progress.tsx[22m
+[2m00:24:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component, /src/routes/scenario.$scenarioId.tsx?tsr-split=component, /src/routes/quiz.tsx?tsr-split=component, /src/routes/lesson.tsx?tsr-split=component, /src/routes/progress.tsx?tsr-split=component[22m
+[2m00:24:34[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/learning-progress.ts[22m
+[2m00:24:34[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m00:24:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component, /src/routes/scenario.$scenarioId.tsx?tsr-split=component, /src/routes/quiz.tsx?tsr-split=component, /src/routes/lesson.tsx?tsr-split=component, /src/routes/progress.tsx?tsr-split=component[22m
+[2m00:24:38[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/learning-progress.ts[22m
+[2m00:25:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m00:25:03[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m00:25:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m00:25:04[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m00:25:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m00:25:08[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m00:25:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m00:25:10[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m00:25:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m00:25:13[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m00:25:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m00:25:15[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m00:25:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component, /src/routes/scenario.$scenarioId.tsx?tsr-split=component, /src/routes/quiz.tsx?tsr-split=component, /src/routes/lesson.tsx?tsr-split=component, /src/routes/progress.tsx?tsr-split=component[22m
+[2m00:25:19[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/learning-progress.ts[22m
+[2m00:25:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component, /src/routes/scenario.$scenarioId.tsx?tsr-split=component, /src/routes/quiz.tsx?tsr-split=component, /src/routes/lesson.tsx?tsr-split=component, /src/routes/progress.tsx?tsr-split=component[22m
+[2m00:25:24[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/learning-progress.ts[22m
+[2m00:25:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component, /src/routes/scenario.$scenarioId.tsx?tsr-split=component, /src/routes/quiz.tsx?tsr-split=component, /src/routes/lesson.tsx?tsr-split=component, /src/routes/progress.tsx?tsr-split=component[22m
+[2m00:25:26[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/learning-progress.ts[22m
+[2m00:25:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component, /src/routes/scenario.$scenarioId.tsx?tsr-split=component, /src/routes/quiz.tsx?tsr-split=component, /src/routes/lesson.tsx?tsr-split=component, /src/routes/progress.tsx?tsr-split=component[22m
+[2m00:25:29[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/learning-progress.ts[22m
+[2m00:25:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m00:25:53[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m00:26:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m00:26:32[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m02:39:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/report.tsx, /src/routes/report.tsx?tsr-split=component[22m
+[2m02:39:23[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/report.tsx[22m
+[2m02:39:23[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m02:39:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/report.tsx, /src/routes/report.tsx?tsr-split=component[22m
+[2m02:39:45[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/report.tsx[22m
+[2m02:43:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/login.tsx, /src/routes/login.tsx?tsr-split=component[22m
+[2m02:43:27[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/login.tsx[22m
+[2m02:43:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/auth.callback.tsx[22m
+[2m02:43:27[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/auth.callback.tsx[22m
+[2m02:43:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/login.tsx, /src/routes/login.tsx?tsr-split=component[22m
+[2m02:43:29[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/login.tsx[22m
+[2m02:43:29[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m02:43:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/auth.callback.tsx[22m
+[2m02:43:29[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/auth.callback.tsx[22m
+[2m02:45:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.index.tsx, /src/routes/admin.index.tsx?tsr-split=component[22m
+[2m02:45:43[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.index.tsx[22m
+[2m02:45:43[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m02:45:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.index.tsx, /src/routes/admin.index.tsx?tsr-split=component[22m
+[2m02:45:47[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.index.tsx[22m
+[2m02:45:49[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.index.tsx?tsr-split=component, /src/routes/admin.reports.tsx?tsr-split=component, /src/routes/admin.users.tsx?tsr-split=component[22m
+[2m02:45:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.index.tsx, /src/routes/admin.index.tsx?tsr-split=component[22m
+[2m02:45:50[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.index.tsx[22m
+[2m02:45:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.index.tsx?tsr-split=component, /src/routes/admin.reports.tsx?tsr-split=component, /src/routes/admin.users.tsx?tsr-split=component[22m
+[2m02:45:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.index.tsx, /src/routes/admin.index.tsx?tsr-split=component[22m
+[2m02:45:52[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.index.tsx[22m
+[2m02:47:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.index.tsx, /src/routes/admin.index.tsx?tsr-split=component[22m
+[2m02:47:17[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.index.tsx[22m
+[2m02:48:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.index.tsx, /src/routes/admin.index.tsx?tsr-split=component[22m
+[2m02:48:11[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.index.tsx[22m
+[2m02:48:11[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m02:48:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.index.tsx, /src/routes/admin.index.tsx?tsr-split=component[22m
+[2m02:48:19[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.index.tsx[22m
+[2m02:48:19[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m02:48:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.scenarios.tsx, /src/routes/admin.scenarios.tsx?tsr-split=component[22m
+[2m02:48:38[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.scenarios.tsx[22m
+[2m02:51:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.scenarios.tsx, /src/routes/admin.scenarios.tsx?tsr-split=component[22m
+[2m02:51:06[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.scenarios.tsx[22m
+[2m02:51:25[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.scenarios.tsx, /src/routes/admin.scenarios.tsx?tsr-split=component[22m
+[2m02:51:25[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.scenarios.tsx[22m
+[2m02:51:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.scenarios.tsx, /src/routes/admin.scenarios.tsx?tsr-split=component[22m
+[2m02:51:56[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.scenarios.tsx[22m
+[2m02:52:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.scenarios.tsx, /src/routes/admin.scenarios.tsx?tsr-split=component[22m
+[2m02:52:13[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.scenarios.tsx[22m
+[2m02:54:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.scenarios.tsx, /src/routes/admin.scenarios.tsx?tsr-split=component[22m
+[2m02:54:21[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.scenarios.tsx[22m
+[2m02:54:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.scenarios.tsx, /src/routes/admin.scenarios.tsx?tsr-split=component[22m
+[2m02:54:27[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.scenarios.tsx[22m
+[2m02:54:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.scenarios.tsx, /src/routes/admin.scenarios.tsx?tsr-split=component[22m
+[2m02:54:40[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.scenarios.tsx[22m
+[2m03:06:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/login.tsx, /src/routes/login.tsx?tsr-split=component[22m
+[2m03:06:35[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/login.tsx[22m
+[2m03:06:35[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m03:10:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/login.tsx, /src/routes/login.tsx?tsr-split=component[22m
+[2m03:10:46[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/login.tsx[22m
+[2m03:10:46[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m03:11:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.reports.tsx, /src/routes/admin.reports.tsx?tsr-split=component[22m
+[2m03:11:02[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.reports.tsx[22m
+[2m03:11:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/admin.reports.tsx, /src/routes/admin.reports.tsx?tsr-split=component[22m
+[2m03:11:43[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/admin.reports.tsx[22m
+[2m03:27:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component, /src/routes/scenario.$scenarioId.tsx?tsr-split=component, /src/routes/quiz.tsx?tsr-split=component, /src/routes/lesson.tsx?tsr-split=component, /src/routes/progress.tsx?tsr-split=component[22m
+[2m03:27:19[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/learning-progress.ts[22m
+[2m03:27:19[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m03:27:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m03:27:19[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m03:27:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/result.tsx, /src/routes/result.tsx?tsr-split=component[22m
+[2m03:27:19[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/result.tsx[22m
+[2m03:27:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx?tsr-split=component, /src/routes/scenario.$scenarioId.tsx?tsr-split=component, /src/routes/quiz.tsx?tsr-split=component, /src/routes/lesson.tsx?tsr-split=component, /src/routes/progress.tsx?tsr-split=component[22m
+[2m03:27:21[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/lib/learning-progress.ts[22m
+[2m03:27:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/quiz.tsx, /src/routes/quiz.tsx?tsr-split=component[22m
+[2m03:27:22[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/quiz.tsx[22m
+[2m03:27:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/result.tsx, /src/routes/result.tsx?tsr-split=component[22m
+[2m03:27:22[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/result.tsx[22m
+[2m03:32:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenarios.tsx, /src/routes/scenarios.tsx?tsr-split=component[22m
+[2m03:32:56[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenarios.tsx[22m
+[2m03:32:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m03:32:56[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m03:33:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m03:33:22[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m03:33:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenarios.tsx, /src/routes/scenarios.tsx?tsr-split=component[22m
+[2m03:33:22[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenarios.tsx[22m
+[2m03:45:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx, /src/routes/home.tsx?tsr-split=component[22m
+[2m03:45:29[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/home.tsx[22m
+[2m03:45:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/home.tsx, /src/routes/home.tsx?tsr-split=component[22m
+[2m03:45:40[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/home.tsx[22m
+[2m03:47:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m03:47:19[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m03:47:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m03:47:20[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m03:49:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m03:49:13[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m03:49:13[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m03:49:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m03:49:28[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m07:18:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m07:18:36[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m07:18:36[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m07:18:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m07:18:41[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m07:30:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct[22m
+[2m07:30:57[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/server.ts[22m
+[2m07:30:57[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m07:30:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m07:30:57[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m07:31:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct[22m
+[2m07:31:02[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/server.ts[22m
+[2m07:31:02[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m07:31:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m07:31:03[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m07:41:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m07:41:39[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
+[2m07:41:39[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m program reload
+[2m07:41:41[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct, /src/routes/scenario.$scenarioId.tsx, /src/routes/scenario.$scenarioId.tsx?tsr-split=component[22m
+[2m07:41:41[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/scenario.$scenarioId.tsx[22m
